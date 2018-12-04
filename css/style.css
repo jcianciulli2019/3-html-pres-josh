@@ -1,0 +1,106 @@
+body, html {
+    height: 100%;
+}
+
+.fs-img1 { 
+    /* The image used */
+    background-image: url("/img/NYC.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.black-transparent {
+    background-color: rgba(0,0,0,0.5)
+}
+
+h1{
+   font-family: 'Teko', sans-serif;
+   font-size: 14vh;
+   font-size: 13vw;
+}
+
+.hs-img1 {
+    background-image: url(img/NYC.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hs-img2 {
+    background-image: url(img/Los Angeles.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+/* Full Screen Video */
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    left: 0;
+    top: -33%;
+    min-width: 50%; 
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 30px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+@media (max-width:600px) {
+    #myvideo {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        min-width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width:1080px) {
+    #myvideo {
+        position: fixed;
+        left: 0;
+        top: -10%;
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
+
